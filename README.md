@@ -23,3 +23,9 @@ Es sollte möglichst einfach sein, neue Inhalte hinzuzufügen. Auf Volumio kann 
 
 ### Hardware
 ![img_5210](https://user-images.githubusercontent.com/25091747/33244486-447f4a74-d2f8-11e7-8385-c3340e1acabd.jpg)
+
+- https://www.amazon.de/gp/product/B00HSDOTTU/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 -> RFID
+- https://www.amazon.de/gp/product/B00HSWXR9Y/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1 -> Rotary Encoder
+- https://www.amazon.de/gp/product/B01FM6TOH6/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1 -> Power Bank
+- https://cdn-learn.adafruit.com/downloads/pdf/adafruit-speaker-bonnet-for-raspberry-pi.pdf -> DAC und Boxen
+- https://www.ebay.de/itm/232503354835 -> Taster
