@@ -20,7 +20,6 @@ Es sollte möglichst einfach sein, neue Inhalte hinzuzufügen. Auf Volumio kann 
 ### Beispiele
 - https://github.com/mwiedemeyer/RaspiMusicBox
 - https://github.com/Terminal-Geek/Audioplayer
-- https://www.musicpd.org
 
 ### Hardware
 ![img_5210](https://user-images.githubusercontent.com/25091747/33244486-447f4a74-d2f8-11e7-8385-c3340e1acabd.jpg)
