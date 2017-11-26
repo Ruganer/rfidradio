@@ -2,6 +2,7 @@
 
 Ein Musik-Player der gesteuert wird über eine WebUI und RFID-Tags.
 Das System basiert bisher auf [Volumio](https://volumio.org) und ein paar Python-Skripten, die ich gefunden und minimal angepasst habe um die externen Schalter (ON/OFF, Volume/Toggle) abzufragen und zu bedienen.
+Die Schalter und eine LED werden über die GPIOs des Raspberry gesteuert.
 
 ### ToDo Software:
 
