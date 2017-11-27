@@ -21,8 +21,6 @@ Es sollte möglichst einfach sein, neue Inhalte hinzuzufügen. Auf Volumio kann 
 - https://github.com/mwiedemeyer/RaspiMusicBox
 - https://github.com/Terminal-Geek/Audioplayer
 
-- Volumio & Python
-https://volumio.org/forum/gpio-pins-control-volume-t2219.html
 - Volumio Command Line Client https://volumio.github.io/docs/Good_to_Knows/Command_Line_Client
 
 ### Hardware
