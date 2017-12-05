@@ -10,6 +10,7 @@ Ein Script, dass:
 - auf eine Eingabe des RFID-Readers wartet (10 stellige Nummer + ENTER)
 - die Nummer in einer Datenbank (evtl. txt-Datei) abgleicht und einer MP3 zuordnet
 - die MP3 im Player abspielt
+- erkennt wenn ein File abspielt, und dieses nicht nochmal startet, wenn die gleiche Nummer wiederholt aufgelegt wird ;-)
 - Feedback über LED am ON/OFF-Taster
 
 Es sollte möglichst einfach sein, neue Inhalte hinzuzufügen. Auf Volumio kann man per smb zugreifen. Dann kann man einfach neue Titel hinzufügen und einen Eintrag in der txt-Datei machen.
