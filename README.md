@@ -33,5 +33,6 @@ Es sollte möglichst einfach sein, neue Inhalte hinzuzufügen. Auf Volumio kann 
 - https://www.amazon.de/gp/product/B01FM6TOH6/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1 -> Power Bank
 - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-speaker-bonnet-for-raspberry-pi.pdf -> DAC und Boxen
 - https://www.ebay.de/itm/232503354835 -> Taster
+- https://www.ebay.de/itm/Steckfassung-mit-Kabeln-für-22mm-Taster-Schalter-mit-LED-Beleuchtung/232173340271?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649 -> Fassung für Taster
 - https://www.thomann.de/de/q_parts_dome_potiknob_vine_black.htm  -> Dreknopf
 - https://www.amazon.de/gp/product/B0043VNKOA/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 -> USB-Stick 16GB
