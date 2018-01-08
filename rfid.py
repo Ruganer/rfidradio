@@ -1,18 +1,24 @@
-# Start setting python/Rpi parimeters
-import os
-import time
-import sys
+import subprocess
 
-id = "0008482812"  #This is where you configure the correct ID, current version only supports one correct ID 
-scan = "0"  # presets the scan resault as 0
+while True:                                             # schleife
+ rfid = raw_input("input: ")                            # user eingabe
+ text = '/home/volumio/rfid//test.txt'                  # pfad zur datenbak
 
-
-while(True):                                       #Begin loop
-	scan = raw_input("Please scan code")
-        if scan == id:                             #If scanned ID is correct, perform script
-		os.system("volumio play")          #Perform action 
-		print ("pin high, waiting")        #prints message to console 
-		scan = "0"                         # resets the scan 
-	else:                                      # if the code is wrong, this performs
-		print ("wrong code")               # print message to constole 
-		time.sleep(1)                      # wait a second 
+ with open(text) as text:                               # text als text oeffnen
+  found = False                                         # var
+  for line in text:
+      if rfid in line:                                    
+          found = True
+          member = line.split('|')                      # auseinandernehmen der Zeile
+          id = member[0]
+          playlist = member[1].strip()
+          print "key: %s" % id
+          print "playlist: %s" % playlist
+          if rfid == id:                                # wenn rfid in datenbank
+            subprocess.call(['volumio', 'toggle'])
+            print
+            print
+  else: 
+      if rfid != id:
+       print("key not found in database")
+  text.close  
